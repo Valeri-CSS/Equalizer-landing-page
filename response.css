@@ -1,0 +1,175 @@
+@media screen and (min-width: 768px) {
+
+    .header {
+        background-image: url(./Images/bg-main-tablet.png);
+        background-position: 65% -250px;
+        width: 100%;
+        height: 697px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header-circles {
+        display: block;
+        position: absolute;
+        height: 344px;
+        width: 210px;
+        right: 0;
+        top: -35px;
+    }
+
+    .logo {
+        margin-bottom: 100px;
+    }
+
+    .header-titel {
+        width: 80%;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .header-description {
+        width: 508px;
+    }
+
+    .main {
+        max-width: 90%;
+        margin-top: 0px;
+        background: rgba(25, 24, 38, 1);
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .circles {
+        position: absolute;
+        top: -35px;
+    }
+
+    .main-contant {
+        width: 768px;
+    }
+
+    .mobile-phone {
+        width: 270px;
+        height: 556px;
+        top: -130px;
+        left: 50px;
+    }
+
+    .orange {
+        width: 345px;
+        height: 522px;
+        top: 154px;
+        right: 80px;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    .footer-contant {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+    }
+
+    .footer-description {
+        width: 351px;
+    }
+
+    .social-media {
+        margin-bottom: -53px;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+
+    body {
+        background-image: url(./Images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: -281px -294px;
+    }
+
+    .header{background-image:unset;}
+
+    .header-contant {
+        max-width: 1110px;
+    }
+
+    .header-titel {
+        font-size: 6vw;
+        width: 95%;
+    }
+
+    .header-description {
+        max-width: 790px;
+    }
+
+    .circles {
+        display: none;
+    }
+
+    .main {
+        max-width: 1110px;
+        margin-top: 100px;
+    }
+
+    .orange {
+        right: -40px;
+        top: 110px;
+        height: unset;
+    }
+
+    .orange-titel {
+        margin-top: 60px;
+    }
+
+    .ios {
+        width: 333px;
+        margin: 20px auto 21px auto;
+    }
+
+    .android {
+        width: 333px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .circles-desktop {
+        display: block;
+        width: 312px;
+        height: 468px;
+        margin-top: -40px;
+        margin-left: -86px;
+    }
+
+    .mobile-phone {
+        width: 280px;
+        height: 606px;
+        top: -174px;
+        left: -17px;
+    }
+
+    .footer {
+        max-width: 1110px;
+        margin-top: 160px;
+    }
+
+    .footer-description {
+        width: unset;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .footer-description-text {
+        width: 350px;
+    }
+
+    .social-media {
+        margin-bottom: 0;
+    }
+}
